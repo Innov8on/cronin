@@ -1,6 +1,20 @@
 = cronin
 
-Description goes here.
+Simple gem to find out when given cron task should be executed. It support only basic cron entries:
+* '*'
+* X, where X is a digit from proper range
+* '*/X' where X is a digit
+
+== Usage:
+
+  task   = Cronin::CronTask.new('* * * * *')
+  start  = Time.mktime(2011,1,1,12,12)
+  finish = Time.mktime(2011,1,1,12,12)
+  task.executions(start,finish)
+  
+  => [Sat Jan 01 12:12:00 0100 2011, Sat Jan 01 12:13:00 0100 2011, Sat Jan 01 12:14:00 0100 2011, Sat Jan 01 12:15:00 0100 2011]
+
+
 
 == Contributing to cronin
  
@@ -14,6 +28,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Sławosz Sławiński. See LICENSE.txt for
+Copyright (c) 2011 innov8on.com. See LICENSE.txt for
 further details.
 

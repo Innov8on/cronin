@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'rubygems'
 require 'bundler'
 begin
@@ -13,11 +14,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "cronin"
-  gem.homepage = "http://github.com/slawosz/cronin"
+  gem.homepage = "http://github.com/innov8n/cronin"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "slawosz@cubiware.com"
+  gem.summary = %Q{Cronin can determine cron tasks executions}
+  gem.description = %Q{Cronin can determine cron tasks executions}
+  gem.email = "slawosz@innov8on.com"
   gem.authors = ["Sławosz Sławiński"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
