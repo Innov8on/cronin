@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{cronin}
-  s.version = "0.0.1"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["S\305\202awosz S\305\202awi\305\204ski"]
