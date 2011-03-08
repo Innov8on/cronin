@@ -17,13 +17,16 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
+    ".autospec",
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "cronin.gemspec",
     "lib/cronin.rb",
     "lib/cronin/abstract_timing.rb",
     "lib/cronin/cron_task.rb",
