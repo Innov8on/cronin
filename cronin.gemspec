@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/week_days_spec.rb"
   ]
-  s.homepage = %q{http://github.com/innov8n/cronin}
+  s.homepage = %q{http://github.com/innov8on/cronin}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}

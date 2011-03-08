@@ -14,7 +14,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "cronin"
-  gem.homepage = "http://github.com/innov8n/cronin"
+  gem.homepage = "http://github.com/innov8on/cronin"
   gem.license = "MIT"
   gem.summary = %Q{Cronin can determine cron tasks executions}
   gem.description = %Q{Cronin can determine cron tasks executions}
